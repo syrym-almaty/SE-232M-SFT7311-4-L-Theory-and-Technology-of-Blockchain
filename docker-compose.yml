@@ -1,0 +1,45 @@
+# docker-compose.yml
+version: '3'
+services:
+  # Ganache: Local Blockchain
+  ganache:
+    image: trufflesuite/ganache-cli
+    ports:
+      - "8545:8545"
+    command: ganache-cli -h 0.0.0.0 --networkId 1337 --accounts 10 --defaultBalanceEther 100
+    volumes:
+      - ./blockchain_data:/blockchain
+
+  # Backend: Node.js API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - ganache
+    environment:
+      - BLOCKCHAIN_URL=http://ganache:8545
+    volumes:
+      - ./backend:/app
+    networks:
+      - app-network
+
+  # Frontend: React DApp
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3000"
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend:/app
+    networks:
+      - app-network
+
+# Network to allow communication between backend and frontend
+networks:
+  app-network:
