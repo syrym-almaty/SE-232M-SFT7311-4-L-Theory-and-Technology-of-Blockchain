@@ -1,0 +1,28 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Blockchain API",
+      "version": "1.0.0",
+      "description": "API documentation for Blockchain Project"
+    },
+    "paths": {
+      "/api/example": {
+        "get": {
+          "summary": "Get example data",
+          "responses": {
+            "200": {
+              "description": "Successful response",
+              "content": {
+                "application/json": {
+                  "example": {
+                    "message": "This is a simple GET response from the controller!"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
