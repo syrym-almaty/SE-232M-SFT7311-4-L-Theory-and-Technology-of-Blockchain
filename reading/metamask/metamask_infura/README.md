@@ -44,7 +44,7 @@ It's essential to clarify that **Infura itself does not directly interact with M
 
 ## **Architecture Diagram: Infura and MetaMask Interaction via a dApp**
 
-Below is a **Mermaid** diagram illustrating how Infura and MetaMask interact within a typical dApp architecture. You can visualize this diagram using any [Mermaid Live Editor](https://mermaid.live/) or integrate it into your documentation tools that support Mermaid.
+Below is a diagram illustrating how Infura and MetaMask interact within a typical dApp architecture. 
 
 [Graph link](https://mermaid.live/view#pako:eNqFk8lOwzAQhl_F8oULfYEekFoWqQcQokEcEg6DPWmsNnbwQoto351x3KQtrUIunrG-Wf4Z54cLI5GP-cJCU7HsrtCMPhc-0sWrQ5uu4he9qTVrOvJoXzm2d98P0CN6eAS3zDuD3W88aqeM3lOoZaH_FJKTpjnkeLBGU4zMO4PN6LAlCDyqNAWxjND-ZHO0X30rl4rMdBksHBIkf_I8y5PFyBwIn66MWIoKlD6kuPcVWgx13hnsCf3a2OV5nqPpsdHoZjsRAp1Dt-3lJq7XHKE5GY694GdA5wnda01kJzyCr22mXlECerdF2hmC8I69KV9t-94vlP2LdrtMaL_ZtkO10I5lFrSjANrymaBTvBUUg1CybDOgiGYFUgDJbrlBac_WpGG26KmwfjMRzDbs1uhS2Rpir_-kJXruwYfBwTcSPBXuNA-u88l4VSqi42PYHj8Jfs1rpK6UpL_xJ4YWnBqvseBjMiWWEFa-4IXeEQrBm_m3FnzsbcBrbk1YVHxcwsqRF9qW7hTQu60TsvsFMVpP8w)
 

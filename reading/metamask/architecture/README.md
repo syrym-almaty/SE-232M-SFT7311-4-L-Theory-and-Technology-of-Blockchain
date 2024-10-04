@@ -31,7 +31,7 @@
 
 ### Architecture Diagram
 
-Below is the architecture diagram of MetaMask using Mermaid syntax. You can visualize this diagram using any [Mermaid Live Editor](https://mermaid.live/) or integrate it into your documentation tools that support Mermaid.
+Below is the architecture diagram of MetaMask using Mermaid syntax. 
 
 ```mermaid
 graph TD

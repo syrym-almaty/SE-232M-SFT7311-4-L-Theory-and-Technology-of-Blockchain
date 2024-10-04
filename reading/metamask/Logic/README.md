@@ -30,7 +30,7 @@
 
 ### **Architecture Diagram**
 
-Below is a **Mermaid** diagram illustrating the purpose, meaning, and logic of MetaMask within a typical dApp architecture. You can visualize this diagram using any [Mermaid Live Editor](https://mermaid.live/) or integrate it into your documentation tools that support Mermaid.
+Below is a diagram illustrating the purpose, meaning, and logic of MetaMask within a typical dApp architecture. 
 
 [Graph Link](https://mermaid.live/view#pako:eNqNVMlu2zAQ_RWC5wS5-1DAjlPAQN0GlYscpB4m5NgiLJEqlyRGnH_vUNQWOzGigzXLm3mjeaRfuTAS-YzvLDQl2ywLzehx4TEF_ji07E4_KWt0jdqndHxiJo8_f8fYEp-UwDy92MKaZ8rfrM2jqrCDoZaFPiFZo4c1uP3Y6O7Fo3bK6LzPjSF2w1JHNm-aCfkDVBX6sSD5E0CGIljlD3lvsB9wGOb_aDBJDGP9d9oBzSDzGB68CcECxH7Id86F7iu9teC8DcIHi2MbigcLeXqx-f3qQo9FZcRelKD0ZHm-RIuhznuD_UT_bOx-MuqvmLqNdS5vbZaFpjHWo-zR7py2PQ3X19-OZLhjJ3dKdZrH5Ir2YkF4xx6UL4-jcgk5ChnBa9Cwi82SXB9Bbo3WGNttzHFYewL2Xov7jf8COsLNhUDnzojfgTMyHFuCh7Ztp1YCds7kS5MWKdvpkiar66CVAI_9x54KMvrdjK4xkTmSftL1y6M1MhKf7uT98jK108RmQTuShKLu4g4Tdyyig7B5ucBOtxukgLjviJt-y3DuIu7emqgGnsMmZ_BTJL_iNdoalKT_qNdYV3Aqq7HgMzIlbiFUvuCFfiMoBG-ygxZ8RrcKr7g1YVfy2RYqR15o97VUQFenTpC3_zAsrM4)
 

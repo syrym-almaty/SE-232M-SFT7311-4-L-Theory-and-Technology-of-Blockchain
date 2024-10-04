@@ -93,4 +93,3 @@ graph TD
 2. **Management & Monitoring:**
    - Developers can use the **Developer Dashboard** to manage their projects and monitor usage.
    - The **Monitoring & Analytics** component ensures the infrastructure runs smoothly and provides valuable insights.
-
