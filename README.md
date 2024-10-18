@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SE-241M-SFT7311-6-Lab-Theory-and-Technology-of-Blockchain-Lab
 
 
@@ -20,3 +21,6 @@ This is a blockchain project built using **Node.js**, **React**, and **Solidity*
 ```bash
 git clone <repo-url>
 cd blockchain-project
+=======
+# SE-232M-SFT7311-4-L-Theory-and-Technology-of-Blockchain
+>>>>>>> 2b78fc5ab708696cea29130bfda950e65ee93f80
