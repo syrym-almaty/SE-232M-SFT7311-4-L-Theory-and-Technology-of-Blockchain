@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World DApp</title>
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.min.js"></script>
+</head>
+<body>
+  <h1>Hello World DApp</h1>
+  <p>Message: <span id="message">Loading...</span></p>
+  <input type="text" id="newMessage" placeholder="New message">
+  <button onclick="setMessage()">Set Message</button>
+
+  <script>
+    const contractAddress = "0x5fbdb2315678afecb367f032d93f642f64180aa3"; // Replace with actual address
+    const abi = [
+      "function message() view returns (string)",
+      "function setMessage(string _newMessage) public"
+    ];
+
+    async function getMessage() {
+      const provider = new ethers.providers.Web3Provider(window.ethereum);
+      const contract = new ethers.Contract(contractAddress, abi, provider);
+      const message = await contract.message();
+      document.getElementById("message").innerText = message;
+    }
+
+    async function setMessage() {
+      const newMessage = document.getElementById("newMessage").value;
+      const provider = new ethers.providers.Web3Provider(window.ethereum);
+      const signer = provider.getSigner();
+      const contract = new ethers.Contract(contractAddress, abi, signer);
+      const tx = await contract.setMessage(newMessage);
+      await tx.wait();
+      getMessage();
+    }
+
+    window.onload = () => {
+      if (typeof window.ethereum !== 'undefined') {
+        getMessage();
+      } else {
+        alert("Please install MetaMask!");
+      }
+    }
+  </script>
+</body>
+</html>
