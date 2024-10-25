@@ -1,9 +1,44 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/bkt/Downloads/hello-world-smart-contract/contracts/HelloWorld.sol": {
-      "lastModificationDate": 1729861097293,
-      "contentHash": "51cf489c6f54d24d67e8af0863c5ba40",
+    "/Users/bkt/Downloads/SE-232M-Theory-and-Technology-of-Blockchain/labs/week_4/hello-world-smart-contract/contracts/Marketplace.sol": {
+      "lastModificationDate": 1729868173494,
+      "contentHash": "103490b8f0e528842a290fef7e27180d",
+      "sourceName": "contracts/Marketplace.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Marketplace"
+      ]
+    },
+    "/Users/bkt/Downloads/SE-232M-Theory-and-Technology-of-Blockchain/labs/week_4/hello-world-smart-contract/contracts/HelloWorld.sol": {
+      "lastModificationDate": 1729868649080,
+      "contentHash": "b1b3f625e4b200f1d992da82e4101635",
       "sourceName": "contracts/HelloWorld.sol",
       "solcConfig": {
         "version": "0.8.0",

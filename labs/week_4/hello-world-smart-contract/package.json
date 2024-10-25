@@ -13,5 +13,9 @@
     "@nomiclabs/hardhat-ethers": "^2.2.3",
     "ethers": "^5.7.2",
     "hardhat": "^2.22.15"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0",
+    "truffle": "^5.11.5"
   }
 }
